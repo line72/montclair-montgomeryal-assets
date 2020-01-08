@@ -22,7 +22,7 @@ class Configuration {
         this.agencies = [
             {
                 name: 'Routes',
-                parser: new TranslocParser(this.transloc_key, '659', 'https://montgomery-al.gotransitapp.com/api/no.php/')
+                parser: new TranslocParser(this.transloc_key, '659', 'https://montgomeryal.gotransitapp.com/api/no.php/')
             }
         ];
     }
