@@ -22,7 +22,7 @@ CONFIG = transmogrifier.Config(
         revision = 1,
         app_id = 'com.gotransitapp.montgomeryal',
         app_store_id = '1494071249',
-        app_store_url = 'https://apps.apple.com/us/app/go-montgomeryal/id1494071249'
+        app_store_url = 'https://apps.apple.com/us/app/go-montgomery-al/id1494071249'
     ),
     android_config = transmogrifier.MontclairAndroidConfig(
         version = '1.0.2',
