@@ -12,17 +12,15 @@
  * Licensed Under the GPLv3
  *******************************************/
 
-import TranslocParser from './TranslocParser';
+import Transloc3Parser from './Transloc3Parser';
 
 class Configuration {
     constructor() {
-        this.transloc_key = '';
-
         this.center = [32.373220, -86.303379];
         this.agencies = [
             {
                 name: 'Routes',
-                parser: new TranslocParser(this.transloc_key, '659', 'https://montgomeryal.gotransitapp.com/api/no.php/')
+                parser: new Transloc3Parser('659', 'https://montgomeryal.gotransitapp.com/api/no.php/3')
             }
         ];
     }
