@@ -17,6 +17,10 @@ import Transloc3Parser from './Transloc3Parser';
 class Configuration {
     constructor() {
         this.center = [32.373220, -86.303379];
+        this.tileserver = {
+            url: 'https://montgomeryal.gotransitapp.com/tiles/{z}/{x}/{y}.png',
+            subdomains: ''
+        };
         this.agencies = [
             {
                 name: 'Routes',
